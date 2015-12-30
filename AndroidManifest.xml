@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.teamrise.adapttix"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="14" />
+
+    <application
+        android:debuggable="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="Adapt-Tix"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+
+        <!--
+        <activity
+            android:name=".StartingSplashScreen"
+            android:label="Adapt-Tix"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        -->
+        <activity
+            android:name=".MainMenu"
+            android:label="Adapt-Tix"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SelfEvaluation"
+            android:label="Self Evaluation"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.teamrise.adapttix.SELFEVALUATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Individuals"
+            android:label="Individuals"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.teamrise.adapttix.INDIVIDUALS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".IndividualEvaluationExplanation"
+            android:label="Individual Evaluation Explanation"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.teamrise.adapttix.INDIVIDUALEVALUATIONEXPLANATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="SelfEvaluationSummary"
+            android:label="Self Evaluation Summary"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.teamrise.adapttix.SELFEVALUATIONSUMMARY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GetName"
+            android:label="Get Name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.teamrise.adapttix.GETNAME" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".IndividualSummary"
+            android:label="Individual Summary"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.teamrise.adapttix.INDIVIDUALSUMMARY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".IndividualEvaluation"
+            android:label="Individual Evaluation"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.teamrise.adapttix.INDIVIDUALEVALUATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PrescriptionsCalculator"
+            android:label="Prescriptions Calculator"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.teamrise.adapttix.PRESCRIPTIONSCALCULATOR" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Prescriptions"
+            android:label="Prescriptions"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" >
+            <intent-filter>
+                <action android:name="com.teamrise.adapttix.PRESCRIPTIONS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="About"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.teamrise.adapttix.ABOUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Contact"
+            android:label="Contact"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.teamrise.adapttix.CONTACT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Legal"
+            android:label="Legal"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.teamrise.adapttix.LEGAL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

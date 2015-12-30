@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/adapttixbackground" >
+
+    <TextView
+        android:id="@+id/tvSelfEvaluationTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="@string/self_evaluation_TITLE"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bSelfEvaluationBack"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/tvSelfEvaluationTitle"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/arrowleft" />
+
+    <Button
+        android:id="@+id/bSelfEvaluationForward"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tvSelfEvaluationTitle"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/arrowright" />
+
+    <TextView
+        android:id="@+id/tvSelfEvaluationTopExplanation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSelfEvaluationTitle"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@id/bSelfEvaluationForward"
+        android:layout_toRightOf="@id/bSelfEvaluationBack"
+        android:text="@string/self_evaluation_TOP_EXPLANATION" />
+
+    <TextView
+        android:id="@+id/tvSelfEvaluationTip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/self_evaluation_TIP" />
+
+    <LinearLayout
+        android:id="@+id/llSelfEvaluationChoices"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/tvSelfEvaluationTip"
+        android:layout_below="@id/tvSelfEvaluationTopExplanation"
+        android:gravity="center|center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <RadioGroup
+            android:id="@+id/rgChoice"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:weightSum="100" >
+
+            <RadioButton
+                android:id="@+id/rbLeft"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="50"
+                android:background="@drawable/selfevaluationbuttons"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/self_evaluation_starting_left_button"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rbRight"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:layout_weight="50"
+                android:background="@drawable/selfevaluationbuttons"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/self_evaluation_starting_right_button"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </RadioGroup>
+    </LinearLayout>
+
+</RelativeLayout>

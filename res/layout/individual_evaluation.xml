@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/adapttixbackground" >
+
+    <!--
+         <TextView
+        android:id="@+id/tvIndividualEvaluationName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textStyle="bold" />
+    -->
+
+
+    <!--
+          <TextView
+        android:id="@+id/tvIndividualEvaluationExplanation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvIndividualEvaluationName"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/individual_evaluation_EXPLANATION" />
+    -->
+
+    <Button
+        android:id="@+id/bIndividualEvaluationBack"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/arrowleft" />
+
+    <Button
+        android:id="@+id/bIndividualEvaluationForward"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/arrowright" />
+
+    <LinearLayout
+        android:id="@+id/llIndividualEvaluationChoices"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/bIndividualEvaluationBack"
+        android:orientation="vertical"
+        android:weightSum="100" >
+
+        <LinearLayout
+            android:id="@+id/llIndividualEvaluationLeftRight"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="20"
+            android:orientation="horizontal"
+            android:weightSum="100" >
+
+            <Button
+                android:id="@+id/bIndividualEvaluationLeft"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="bottom"
+                android:layout_weight="50"
+                android:text="@string/individual_evaluation_FIRST_LEFT_BUTTON"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bIndividualEvaluationRight"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="bottom"
+                android:layout_weight="50"
+                android:text="@string/individual_evaluation_FIRST_RIGHT_BUTTON"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llIndividualEvaluationNeither"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="80"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/bIndividualEvaluationNeither"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="10dp"
+                android:text="@string/individual_evaluation_NEITHER_BUTTON" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

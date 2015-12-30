@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/adapttixlogo"
+    android:orientation="vertical"
+    android:scrollbarFadeDuration="500"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" > 
+
+     <!--<Button
+            android:id="@+id/bAddIndividual"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/main_menu_BUTTON0"
+            android:textSize="12dp" /> 
+
+        <ImageView
+            android:id="@+id/ivlogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="66dp"
+            android:contentDescription="@string/main_menu_PICTURE"
+            android:src="@drawable/adapttixalpha" /> -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/bNewIndividual"
+                android:layout_width="240dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="300dp"
+                android:background="@drawable/newindividualbutton" />
+            <Button
+                android:id="@+id/bIndividuals"
+                android:layout_width="240dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/individualbutton" />
+
+            <Button
+                android:id="@+id/bUpdateSelfEvaluation"
+                android:layout_width="240dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/updatebutton" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/adapttixbackground"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvReview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="@string/self_evaluation_summary_REVIEW"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvReviewText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@null"
+        android:gravity="center"
+        android:text="@string/self_evaluation_summary_REVIEW_TEXT" />
+
+    <TextView
+        android:id="@+id/tvTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@null"
+        android:gravity="center"
+        android:text="@string/self_evaluation_summary_TIP" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.88"
+        android:orientation="vertical"
+        android:scrollbarFadeDuration="500"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvReviewHeading0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="@string/self_evaluation_summary_HEADING0"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup0"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:weightSum="100" >
+
+                <RadioButton
+                    android:id="@+id/radio0"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+
+                <RadioButton
+                    android:id="@+id/radio1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:weightSum="100" >
+
+                <RadioButton
+                    android:id="@+id/radio2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+
+                <RadioButton
+                    android:id="@+id/radio3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioGroup2"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:weightSum="100" >
+
+                <RadioButton
+                    android:id="@+id/radio4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+
+                <RadioButton
+                    android:id="@+id/radio5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioGroup3"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:weightSum="100" >
+
+                <RadioButton
+                    android:id="@+id/radio6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+
+                <RadioButton
+                    android:id="@+id/radio7"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioGroup4"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:weightSum="100" >
+
+                <RadioButton
+                    android:id="@+id/radio8"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+
+                <RadioButton
+                    android:id="@+id/radio9"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvReviewHeading1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="@string/self_evaluation_summary_HEADING1"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup5"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:weightSum="100" >
+
+                <RadioButton
+                    android:id="@+id/radio10"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+
+                <RadioButton
+                    android:id="@+id/radio11"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioGroup6"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:weightSum="100" >
+
+                <RadioButton
+                    android:id="@+id/radio12"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+
+                <RadioButton
+                    android:id="@+id/radio13"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioGroup7"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:weightSum="100" >
+
+                <RadioButton
+                    android:id="@+id/radio14"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+
+                <RadioButton
+                    android:id="@+id/radio15"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioGroup8"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:weightSum="100" >
+
+                <RadioButton
+                    android:id="@+id/radio16"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+
+                <RadioButton
+                    android:id="@+id/radio17"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioGroup9"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:weightSum="100" >
+
+                <RadioButton
+                    android:id="@+id/radio18"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+
+                <RadioButton
+                    android:id="@+id/radio19"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvReviewHeading2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="@string/self_evaluation_summary_HEADING2"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup10"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:weightSum="100" >
+
+                <RadioButton
+                    android:id="@+id/radio20"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+
+                <RadioButton
+                    android:id="@+id/radio21"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioGroup11"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:weightSum="100" >
+
+                <RadioButton
+                    android:id="@+id/radio22"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+
+                <RadioButton
+                    android:id="@+id/radio23"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioGroup12"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:weightSum="100" >
+
+                <RadioButton
+                    android:id="@+id/radio24"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+
+                <RadioButton
+                    android:id="@+id/radio25"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioGroup13"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:weightSum="100" >
+
+                <RadioButton
+                    android:id="@+id/radio26"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+
+                <RadioButton
+                    android:id="@+id/radio27"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioGroup14"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:weightSum="100" >
+
+                <RadioButton
+                    android:id="@+id/radio28"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+
+                <RadioButton
+                    android:id="@+id/radio29"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvReviewHeading3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="@string/self_evaluation_summary_HEADING3"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup15"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:weightSum="100" >
+
+                <RadioButton
+                    android:id="@+id/radio30"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+
+                <RadioButton
+                    android:id="@+id/radio31"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioGroup16"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:weightSum="100" >
+
+                <RadioButton
+                    android:id="@+id/radio32"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+
+                <RadioButton
+                    android:id="@+id/radio33"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioGroup17"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:weightSum="100" >
+
+                <RadioButton
+                    android:id="@+id/radio34"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+
+                <RadioButton
+                    android:id="@+id/radio35"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioGroup18"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:weightSum="100" >
+
+                <RadioButton
+                    android:id="@+id/radio36"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+
+                <RadioButton
+                    android:id="@+id/radio37"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radioGroup19"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:weightSum="100" >
+
+                <RadioButton
+                    android:id="@+id/radio38"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+
+                <RadioButton
+                    android:id="@+id/radio39"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/summarybuttons"
+                    android:button="@null" />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

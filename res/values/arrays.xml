@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="LeftEvaluationTraits">
+        <item>Cautious</item>
+        <item>Shows intensity</item>
+        <item>Focuses on immediate results</item>
+        <item>High concern for others\' approval</item>
+        <item>Decides quickly</item>
+        <item>Modest</item>
+        <item>Demanding of others</item>
+        <item>Spontaneous</item>
+        <item>Takes charge</item>
+        <item>Uses humor sparingly</item>
+        <item>Talkative</item>
+        <item>Refined</item>
+        <item>Detailed</item>
+        <item>Speaks quickly</item>
+        <item>Expressive</item>
+        <item>Boldy makes requests</item>
+        <item>Accomodating</item>
+        <item>Conveys strong opinions</item>
+        <item>Quick to confront</item>
+        <item>Persuade based on facts</item>
+    </string-array>
+    <string-array name="RightEvaluationTraits">
+        <item>Venturesome</item>
+        <item>Appears relaxed</item>
+        <item>Focuses on long-term results</item>
+        <item>Low concern for others\' approval</item>
+        <item>Carefully deliberates</item>
+        <item>Proudly conveys achievements</item>
+        <item>Easy on others</item>
+        <item>Reserved</item>
+        <item>Defers to others</item>
+        <item>Generous doses of humor</item>
+        <item>Quiet</item>
+        <item>Earthy</item>
+        <item>Concise</item>
+        <item>Unhurried pace</item>
+        <item>Low-keyed</item>
+        <item>Gently makes requests</item>
+        <item>Strives to win</item>
+        <item>Conveys moderate opinions</item>
+        <item>Puts off confronting</item>
+        <item>Persuades based on feelings</item>
+    </string-array>
+    <string-array name="LeftSelfDescriptions">
+        <item>Prefers lower-risk, proven approaches.</item>
+        <item>Comes across with a somewhat stern look.</item>
+        <item>Emphasizes quick, tangible payoffs.</item>
+        <item>Strong desire for praise and acceptance.</item>
+        <item>Trusts one\'s instincts and initial reactions.</item>
+        <item>Downplays one\'s talents and accomplishments.</item>
+        <item>Conveys expectations for others to work hard and excel.</item>
+        <item>Takes initiative to speak up without much deliberation.</item>
+        <item>Readily takes control, providing directives to make progress.</item>
+        <item>Comes across as serious; not likely to initiate much humor.</item>
+        <item>Actively engages in - and can dominate - discussions.</item>
+        <item>Expresses opinions in a rather polished way.</item>
+        <item>Strives for thoroughness, communicating with lengthy statements.</item>
+        <item>Talks at a fast pace.</item>
+        <item>Clearly conveys feelings, especially non-verbally.</item>
+        <item>Direct and assertive in communicating desires.</item>
+        <item>Flexible in going along with others\' requests or priorities.</item>
+        <item>Exhibits conviction, often taking a firm stance.</item>
+        <item>Promptly expresses displeasure if bothered by someone\'s actions.</item>
+        <item>Tries to influence by appealing to reason.</item>
+    </string-array>
+    <string-array name="RightSelfDescriptions">
+        <item>Inclined toward bold moves and opportunites, despite risks.</item>
+        <item>Conveys a casual, at-ease manner.</item>
+        <item>Places high value on down-the-road benefits.</item>
+        <item>Takes disapproving reactions in stride.</item>
+        <item>Takes time to consider options.</item>
+        <item>Confidently discusses one\'s abilities and successes.</item>
+        <item>Refrains from putting pressure on others to work hard and excel.</item>
+        <item>Quietly reflective before and while stating views and ideas.</item>
+        <item>Willing to let others call shots and to follow their lead.</item>
+        <item>Injects humorous comments into conversations.</item>
+        <item>Rather passive in discussions, listening more than talking.</item>
+        <item>More of a blunt, rough-around-the-edges style.</item>
+        <item>Quick, to-the-point comments vs. delving into many specifics.</item>
+        <item>Speaks at a leisurely pace.</item>
+        <item>Subdued in expressing emotions; can be \"hard to read.\"</item>
+        <item>Expresses desires in a subtle or mild way.</item>
+        <item>Aggressively pursues own agenda to get others to accommodate.</item>
+        <item>Expresses views in a somewhat tentative way.</item>
+        <item>Refrains from quickly conveying displeasure toward others.</item>
+        <item>Engages others on an emotional level to win them over.</item>
+    </string-array>
+    
+    
+    
+    
+    <string-array name="lPrescriptions">
+        <item>Exhibit a more cautious stance; focus more on potential risks and how to deal with them; stress the tried-and-true.</item>
+        <item>Exhibit more intensity; forcefully present your ideas and opinions; assume an alert posture and maintain direct eye contact.</item>
+        <item>Emphasize the potential short-term, tangible gains of implementing your proposals; focus more on immediate payoffs.</item>
+        <item>Show more concern for reactions to your views and ideas; modify your approach based on such input.</item>
+        <item>Make faster decisions; deliberate less – go with your instincts; place more trust in your initial reactions.</item>
+        <item>Exhibit great modesty; feel confident that your talents will naturally come across without boasting about your successes.</item>
+        <item>Be more demanding; show that you expect much from others despite tight timeframes; don\'t be quick to accept excuses.</item>
+        <item>Take initiative sooner to speak up; deliberate less about what you say; be more willing to just state what you think.</item>
+        <item>Take intiative to be the leader/organizer of action plans; provide direction instead of waiting for it; impose structure where little exists.</item>
+        <item>use humor more discreetly; refrain from making sarcastic comments or "witty" remarks to "lighten up" situations.</item>
+        <item>Take initiative to make small talk; get more actively involved in discussions; don\'t wait to be drawn out.</item>
+        <item>Exhibit more polish and sophistication; avoid using coarse language or making "indelicate" remarks.</item>
+        <item>Offer many specifics when describing situations; be thorough in providing background information.</item>
+        <item>Develop a faster pace as a speaker; more swiftly get to the key points and important issues; express yourself with great urgency.</item>
+        <item>Be more express; make greater use of nonverbal gestures to emphasize important points and convey feelings.</item>
+        <item>More boldly makes requests; be more direct and assertive in expressing what you want; don\'t be concerned about appearing too aggressive.</item>
+        <item>Show greater willingness to go along with others\' ideas, approaches and priorities; be more accomadating.</item>
+        <item>Express your opinions with more certainty; project stronger conviction to your ideas; take a more forecful stance on issues.</item>
+        <item>More quickly and directly confront others when you\'re displeased with their actions; promptly express your concerns.</item>
+        <item>Present more factual information to bolster your position; appeal to reason more than emotion to win your case.</item>
+        <item>Show more inclination toward suggesting and making bold moves; stress opportunities and rewards over risk and security.</item>
+        <item>Come across more calm, less intense; loosen up, sit back a little more, soften your facial gestures.</item>
+        <item>Emphasize the potential long-term gains of implementing your proposals; focus beyond the immediate payoffs.</item>
+        <item>Rely less on praise or reassurance to feel comfortable; take disapproving comments more in stride.</item>
+        <item>Exhibit a more deliberate approach to decision making; take more time to generate options and weigh alternatives.</item>
+        <item>Proudly discuss your successes; don\'t downplay your accomplishments; avoid making self-deprecating remarks.</item>
+        <item>Come across as more easygoing, less demanding; exhibit more understanding when others experience pressure.</item>
+        <item>Be more reflective, less spontaneous; take more to consider what you will say and how you will say it.</item>
+        <item>Seek out others\' ideas and opinions to a greater extent; be more willing to let others call the shots; more readily follow their lead.</item>
+        <item>Strive to inject more humor into your conversations; take more initiative to relate amusing anecdotes.</item>
+        <item>Make greater efforts to be more of a listener; refrain from interrupting or taking center stage; be less talkative.</item>
+        <item>Avoid displaying your sophistication; strive to act in a down-to-earth, less refined manner; use simple language to convey your thoughts.</item>
+        <item>Avoid making lengthy comments; be more concise; highlight key themes vs. delving into many particulars.</item>
+        <item>Slow down as a speaker; convey a more leisurely pace; patiently present information; don\'t rush your points.</item>
+        <item>Be more subdued; exhibit greater restraint in showing your emotions; tone down your nonverbal gestures.</item>
+        <item>Make requests with more subtlety and finesse; avoid coming across as "pushy ask instead of demand.</item>
+        <item>More aggresively pursue your agenda; refrain from readily giving in or compromising; strive to win.</item>
+        <item>More moderately express your opinions; use qualifiers and tentative terms; refrain from making black-or-white statements.</item>
+        <item>Refrain from quickly conveying displeasure when someone says or does something that bothers you.</item>
+        <item>Appeal more to emotions to win others to your side; "connect" with their feelings tor aise their interest and gain approval.</item>
+    </string-array>
+    
+    
+    
+    
+    <string-array name="IndividualLeft">
+        <item>Suggest proven approaches that reflect caution; emphasize the tried-and-true.</item>
+        <item>Show intensity: exhibit a serious demeanor and strong look of conviction.</item>
+        <item>Emphasize quick, tangible payoffs.</item>
+        <item>Come across as eager for praise and acceptance.</item>
+        <item>Make fast decisions; trust your instincts and initial reactions.</item>
+        <item>Display humility; downplay your talents and successes.</item>
+        <item>Appear to push for strong efforts and results from others.</item>
+        <item>Take initiative to speak up or respond without much deliberation.</item>
+        <item>Appear inclined to take control, providing directives to move things along.</item>
+        <item>Come across with a serious tone, minimizing the use of humor.</item>
+        <item>Be highly verbal in discussions; don\'t wait to be drawn out.</item>
+        <item>Is a polished communicator when conveying opinions and ideas</item>
+        <item>Strive for thoroughness as a communicator, providing lots of detail.</item>
+        <item>Talk at a fast pace.</item>
+        <item>Clearly convey emotions, especially nonverbally.</item>
+        <item>Communicate what you want in a firm, direct and assertive manner.</item>
+        <item>Show flexibility for going along with others\' requests or priorities.</item>
+        <item>Take a firm stance on issues, exhibiting conviction behind your views.</item>
+        <item>Promptly and directly convey displeasure if bothered by someone\'s actions.</item>
+        <item>Persuade by providing facts and appealing to reason.</item>
+    </string-array>
+    
+    
+    
+    <string-array name="IndividualRight">
+        <item>Focus more on bold moves rather than conservative, low-risk approaches.</item>
+        <item>Convey a pleasant, casual, relaxed demeanor.</item>
+        <item>Emphasize long-term, "down-the-road" benefits.</item>
+        <item>Take disapproval in stride; don\'t rely on praise to fuel your confidence.</item>
+        <item>Take time to consider alternatives and weigh options.</item>
+        <item>Be outspoken about your abilities and accomplishments.</item>
+        <item>Exhibit a style that would not make others feel pressure to perform.</item>
+        <item>Take a quietly reflective approach before stating your ideas and views.</item>
+        <item>Appear comfortable letting others call the shots and following their lead.</item>
+        <item>Readily inject humorous comments and anecdotes into conversations.</item>
+        <item>Take much more of a passive listener role in discussions than as a talker.</item>
+        <item>Project more of a blunt, "rough-around-the-edges" approach than sophisticated style.</item>
+        <item>Make brief comments rather than delving into lots of detail.</item>
+        <item>Speak at a leisurely pace.</item>
+        <item>Be subdued in expressing emotions: convey a low-keyed approach.</item>
+        <item>Ask for what you want in a subtle or mild way.</item>
+        <item>Aggressively persist at getting others to accommodate to your requests or priorities.</item>
+        <item>Express your views in a moderate, somewhat tentative way.</item>
+        <item>Refrain from quickly and directly conveying displeasure toward others.</item>
+        <item>Persuade based on appealing to one\'s feelings: tap into the emotional side.</item>
+    </string-array>
+
+</resources>

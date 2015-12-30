@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="self_evaluation_FILENAME">self_evaluation</string>
+
+    <!-- WELCOME ALERT DIALOG -->
+    <string name="alert_dialog_WELCOME">Welcome!</string>
+    <string name="starting_activity_MESSAGE">Since this is your first time using Adapt-Tix, please fill out a self-evaluation. Once completed, it will be saved and can be updated at any future point. Welcome to Adapt-Tix!</string>
+
+    <!-- MAIN MENU -->
+    <string name="main_menu_BUTTON0">[+] Add Individual</string>
+    <string name="main_menu_PICTURE">MainMenu Picture</string>
+    <string name="main_menu_BUTTON1">Individuals</string>
+    <string name="main_menu_BUTTON2">Update Self-Evaluation</string>
+    <string name="main_menu_BUTTON3">Retake Self-Evaluation</string>
+
+    <!-- SELF EVALUATION -->
+    <string name="self_evaluation_TITLE">Self Evaluation</string>
+    <string name="self_evaluation_BACK_BUTTON">Back</string>
+    <string name="self_evaluation_FORWARD_BUTTON">Forward</string>
+    <string name="self_evaluation_TOP_EXPLANATION">Select the most appropriate choice from the pair below:</string>
+    <string name="self_evaluation_starting_left_button">Cautious</string>
+    <string name="self_evaluation_starting_right_button">Venturesome</string>
+    <string name="self_evaluation_TIP">Hold down a button to view its description.</string>
+
+    <!-- SELF EVALUATION SUMMARY -->
+    <string name="SelfEvaluation_Description">Self Evaluation Description</string>
+    <string name="self_evaluation_summary_REVIEW">Review:</string>
+    <string name="self_evaluation_summary_REVIEW_TEXT">Look over your choices, and make changes if appropriate.</string>
+    <string name="self_evaluation_summary_TIP">Remember to hold down a button to view its description.</string>
+
+    	<!-- PERSONALITY -->
+    <string name="self_evaluation_summary_HEADING0">PERSONALITY</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT0">Cautious</string>
+    <string name="SelfEvaluationSummary_BUTTON0_DESCRIPTION">Prefers lower-risk, proven approaches.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT1">Venturesome</string>
+    <string name="SelfEvaluationSummary_BUTTON1_DESCRIPTION">Inclined toward bold moves and opportunites, despite risks.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT2">Shows intensity</string>
+    <string name="SelfEvaluationSummary_BUTTON2_DESCRIPTION">Comes across with a somewhat stern look.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT3">Appears relaxed</string>
+    <string name="SelfEvaluationSummary_BUTTON3_DESCRIPTION">Conveys a casual, at-ease manner.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT4">Focuses on immediate results</string>
+    <string name="SelfEvaluationSummary_BUTTON4_DESCRIPTION">Emphasizes quick, tangible payoffs.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT5">Focuses on long-term results</string>
+    <string name="SelfEvaluationSummary_BUTTON5_DESCRIPTION">Places high value on down-the-road benefits.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT6">High concern for others\' approval</string>
+    <string name="SelfEvaluationSummary_BUTTON6_DESCRIPTION">Strong desire for praise and acceptance.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT7">Low concern for others\' approval</string>
+    <string name="SelfEvaluationSummary_BUTTON7_DESCRIPTION">Takes disapproving reactions in stride.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT8">Decides quickly</string>
+    <string name="SelfEvaluationSummary_BUTTON8_DESCRIPTION">Trusts one\'s instincts and initial reactions.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT9">Carefully deliberates</string>
+    <string name="SelfEvaluationSummary_BUTTON9_DESCRIPTION">Takes time to consider options.</string>
+
+    	<!-- INTERPERSONAL -->
+    <string name="self_evaluation_summary_HEADING1">INTERPERSONAL</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT10">Modest</string>
+    <string name="SelfEvaluationSummary_BUTTON10_DESCRIPTION">Downplays one\'s talents and accomplishments.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT11">Proudly conveys achievements</string>
+    <string name="SelfEvaluationSummary_BUTTON11_DESCRIPTION">Confidently discusses one\'s abilities and successes.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT12">Demanding of others</string>
+    <string name="SelfEvaluationSummary_BUTTON12_DESCRIPTION">Conveys expectations for others to work hard and excel.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT13">Easy on others</string>
+    <string name="SelfEvaluationSummary_BUTTON13_DESCRIPTION">Refrains from putting pressure on others to work hard and excel.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT14">Spontaneous</string>
+    <string name="SelfEvaluationSummary_BUTTON14_DESCRIPTION">Takes initiative to speak up without much deliberation.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT15">Reserved</string>
+    <string name="SelfEvaluationSummary_BUTTON15_DESCRIPTION">Quietly reflective before and while stating views and ideas.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT16">Takes charge</string>
+    <string name="SelfEvaluationSummary_BUTTON16_DESCRIPTION">Readily takes control, providing directives to make progress.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT17">Defers to others</string>
+    <string name="SelfEvaluationSummary_BUTTON17_DESCRIPTION">Willing to let others call the shots and follows the leader.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT18">Uses humor sparingly</string>
+    <string name="SelfEvaluationSummary_BUTTON18_DESCRIPTION">Comes across as serious; not likely to initiate much humor.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT19">Generous doses of humor</string>
+    <string name="SelfEvaluationSummary_BUTTON19_DESCRIPTION">Injects humorous comments into conversations.</string>
+
+    	<!-- COMMUNICATION -->
+    <string name="self_evaluation_summary_HEADING2">COMMUNICATION</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT20">Talkative</string>
+    <string name="SelfEvaluationSummary_BUTTON20_DESCRIPTION">Actively engages in - and can dominate - discussions.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT21">Quiet</string>
+    <string name="SelfEvaluationSummary_BUTTON21_DESCRIPTION">Rather passive in discussions, listening more than talking.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT22">Refined</string>
+    <string name="SelfEvaluationSummary_BUTTON22_DESCRIPTION">Expresses opinions in a rather polished way.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT23">Earthy</string>
+    <string name="SelfEvaluationSummary_BUTTON23_DESCRIPTION">More of a blunt, rough-around-the-edges style.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT24">Detailed</string>
+    <string name="SelfEvaluationSummary_BUTTON24_DESCRIPTION">Strives for thoroughness, communicating with lengthy statements.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT25">Concise</string>
+    <string name="SelfEvaluationSummary_BUTTON25_DESCRIPTION">Quick, to-the-point comments, as opposed to delving into many specifics.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT26">Speaks quickly</string>
+    <string name="SelfEvaluationSummary_BUTTON26_DESCRIPTION">Talks at a fast pace.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT27">Speaks slowly</string>
+    <string name="SelfEvaluationSummary_BUTTON27_DESCRIPTION">Speaks at a leisurely pace.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT28">Expressive</string>
+    <string name="SelfEvaluationSummary_BUTTON28_DESCRIPTION">Clearly conveys feelings, especially non-verbally.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT29">Low-keyed</string>
+    <string name="SelfEvaluationSummary_BUTTON29_DESCRIPTION">Subdued in expressing emotions; can be \"hard to read.\"</string>
+
+    	<!-- CONFLICT -->
+    <string name="self_evaluation_summary_HEADING3">CONFLICT</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT30">Boldy makes requests</string>
+    <string name="SelfEvaluationSummary_BUTTON30_DESCRIPTION">Direct and assertive in communicating desires.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT31">Gently makes requests</string>
+    <string name="SelfEvaluationSummary_BUTTON31_DESCRIPTION">Expresses desires in a subtle or mild way.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT32">Accomodating</string>
+    <string name="SelfEvaluationSummary_BUTTON32_DESCRIPTION">Flexible in going along with others\' requests or priorities.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT33">Strives to win</string>
+    <string name="SelfEvaluationSummary_BUTTON33_DESCRIPTION">Aggressively pursues own agenda to get others to accommodate.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT34">Conveys strong opinions</string>
+    <string name="SelfEvaluationSummary_BUTTON34_DESCRIPTION">Exhibits conviction, often taking a firm stance.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT35">Conveys moderate opinions</string>
+    <string name="SelfEvaluationSummary_BUTTON35_DESCRIPTION">Expresses views in a somewhat tentative way.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT36">Quick to confront</string>
+    <string name="SelfEvaluationSummary_BUTTON36_DESCRIPTION">Promptly expresses displeasure if bothered by someone\'s actions.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT37">Puts off confronting</string>
+    <string name="SelfEvaluationSummary_BUTTON37_DESCRIPTION">Refrains from quickly conveying displeasure toward others.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT38">Persuades based on facts</string>
+    <string name="SelfEvaluationSummary_BUTTON38_DESCRIPTION">Tries to influence by appealing to reason.</string>
+    <string name="SelfEvaluationSummary_BUTTON_TEXT39">Persuades based on feelings</string>
+    <string name="SelfEvaluationSummary_BUTTON39_DESCRIPTION">Engages others on an emotional level to win them over.</string>
+    <string name="self_evaluation_summary_ACCEPT">ACCEPT</string>
+
+    <!-- GET NAME -->
+    <string name="get_name_INDIVIDUALS_NAME">Individual\'s name:</string>
+    <string name="get_name_NEXT_BUTTON">Next</string>
+
+    <!-- INDIVIDUAL EVALUATION -->
+    <string name="individual_evaluation_BACK_BUTTON">Back</string>
+    <string name="individual_evaluation_FORWARD_BUTTON">Forward</string>
+    <string name="individual_evaluation_EXPLANATION">Of the two traits below, choose the one that you think would be the most influential on this individual. If you think neither are applicable, then select \'Neither.\'</string>
+    <string name="individual_evaluation_FIRST_LEFT_BUTTON">Suggest proven approaches that reflect caution; emphasize the importance of the tried-and-true.</string>
+    <string name="individual_evaluation_FIRST_RIGHT_BUTTON">Focus more on bold moves rather than "safe", low-risk approaches.</string>
+    <string name="individual_evaluation_NEITHER_BUTTON">Neither</string>
+    <string name="individual_evaluation_TIP">Hold down a button to view its description.</string>
+    
+    <!-- PRESCRIPTIONS -->
+    <string name="prescriptions_TITLE">PRESCRIPTIONS</string>
+    <string name="prescriptions_ACCEPT">ACCEPT</string>
+
+    <!-- MENU BUTTON -->
+    <string name="about">About: blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.</string>
+    <string name="email_address">To: bsteamrise@aol.com</string>
+    <string name="send_email_button">Send</string>
+    <string name="legal">Legal: blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.</string>
+    <string name="self_evaluation_summary_HEADING4">CONFLICT</string>
+    
+    <string name="erase_file_message">Are you sure you want to write over your self evaluation?</string><string name="alert_dialog_ERASE_FILE">REDO SELF EVALUATION</string>
+
+</resources>
